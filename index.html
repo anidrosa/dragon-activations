@@ -1,0 +1,487 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Dragon Flame Activations · Divine Expression</title>
+<meta name="description" content="Private one-hour Dragon Flame Activations on Zoom with Enid Rosa of Divine Expression, for the kind-hearted woman ready to remember her own fire.">
+<meta property="og:title" content="Dragon Flame Activations · Divine Expression">
+<meta property="og:description" content="Private one-hour Dragon Flame Activations on Zoom with Enid Rosa of Divine Expression, for the kind-hearted woman ready to remember her own fire.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#2A1240">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Mulish:wght@400;600;700&display=swap">
+<style>
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; }
+img, svg { max-width: 100%; }
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
+/* Layout: a temple-night hero, then a single cream reading column (~40rem) with wider bands for sessions and the package. */
+:root {
+  --royal: #5A2D82;
+  --plum: #8A3FA0;
+  --gold: #D4AF37;
+  --champagne: #E6C77A;
+  --bg: #F5EFE6;
+  --surface: #FBF7F1;
+  --sand: #E6D8C9;
+  --taupe: #CBBBAA;
+  --fg: #2E2236;
+  --muted: #5F5068;
+  --accent: #5A2D82;
+  --accent-ink: #F5EFE6;
+  --gold-ink: #8C6D12;
+  --line: #DCCDBE;
+  --hero-from: #2A1240;
+  --hero-to: #5A2D82;
+  --hero-fg: #F5EFE6;
+  --font-display: "Cormorant Garamond", "Iowan Old Style", Georgia, serif;
+  --font-body: "Mulish", "Segoe UI", system-ui, sans-serif;
+  --measure: 40rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #1C1424; --surface: #261B30; --sand: #33263F; --taupe: #4A3A57;
+    --fg: #EFE6DA; --muted: #BFAFC8; --accent: #C59BE0; --accent-ink: #1C1424;
+    --gold-ink: #E6C77A; --line: #3B2D48; --hero-from: #120A1B; --hero-to: #3D1D5A;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #1C1424; --surface: #261B30; --sand: #33263F; --taupe: #4A3A57;
+  --fg: #EFE6DA; --muted: #BFAFC8; --accent: #C59BE0; --accent-ink: #1C1424;
+  --gold-ink: #E6C77A; --line: #3B2D48; --hero-from: #120A1B; --hero-to: #3D1D5A;
+  color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.7;
+}
+.wrap {
+  max-width: 64rem;
+  margin: 0 auto;
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+}
+.prose { max-width: var(--measure); margin: 0 auto; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; text-wrap: balance; margin: 0; }
+h2 { font-size: clamp(1.9rem, 4vw, 2.6rem); color: var(--accent); }
+h3 { font-size: 1.6rem; }
+p { margin: 0; }
+.stack { display: flex; flex-direction: column; gap: 1.1rem; }
+.eyebrow {
+  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase;
+  color: var(--gold-ink);
+}
+section { padding-block: clamp(3rem, 7vw, 5rem); }
+.divider { display: flex; justify-content: center; color: var(--gold); padding-block: 0.5rem; }
+.divider svg { width: 9rem; height: 1.5rem; }
+
+/* Hero */
+.hero {
+  margin-top: calc(-1 * env(safe-area-inset-top, 0px));
+  padding-top: calc(env(safe-area-inset-top, 0px) + 4rem);
+  padding-bottom: 4.5rem;
+  background:
+    radial-gradient(60rem 30rem at 50% 115%, rgba(212,175,55,0.28), transparent 60%),
+    linear-gradient(170deg, var(--hero-from), var(--hero-to));
+  color: var(--hero-fg);
+  text-align: center;
+}
+.hero .wrap { display: flex; flex-direction: column; align-items: center; gap: 1.4rem; }
+.sigil { width: 7.5rem; height: 7.5rem; color: var(--champagne); }
+.sigil .flame { transform-origin: 60px 78px; animation: flicker 4.5s ease-in-out infinite; }
+@keyframes flicker { 0%,100% { transform: scale(1); } 50% { transform: scale(1.04, 0.97); } }
+@media (prefers-reduced-motion: reduce) { .sigil .flame { animation: none; } }
+.hero .eyebrow { color: var(--champagne); }
+.hero h1 { font-size: clamp(2.6rem, 7vw, 4.4rem); color: #FBF3E4; }
+.hero h1 em { color: var(--champagne); font-style: italic; font-weight: 500; }
+.hero .sub { max-width: 36rem; font-size: 1.15rem; color: #E9DDEF; }
+.meta { font-size: 0.95rem; letter-spacing: 0.04em; color: var(--champagne); }
+
+.btn {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  padding: 0.8rem 1.5rem; border-radius: 999px;
+  font-weight: 700; font-size: 0.98rem; text-decoration: none;
+  background: var(--accent); color: var(--accent-ink);
+  border: 1px solid transparent;
+  transition: transform .15s ease, box-shadow .15s ease;
+}
+.btn:hover { transform: translateY(-1px); box-shadow: 0 6px 18px rgba(90,45,130,0.25); }
+.btn:focus-visible, summary:focus-visible { outline: 3px solid var(--gold); outline-offset: 3px; }
+.btn.gold { background: var(--gold); color: #2A1240; }
+.btn.ghost { background: transparent; color: var(--accent); border-color: var(--accent); }
+
+/* Opening */
+.opening p:first-child { font-family: var(--font-display); font-size: 1.9rem; line-height: 1.3; color: var(--accent); }
+.opening .turn { font-family: var(--font-display); font-size: 1.5rem; font-style: italic; line-height: 1.4; color: var(--fg); }
+
+/* Reflection */
+.reflect {
+  margin-top: 1rem;
+  border: 1px solid var(--gold);
+  border-radius: 4px;
+  padding: 1.5rem 1.6rem;
+  background: var(--surface);
+  display: flex; flex-direction: column; gap: 0.5rem;
+}
+.reflect .q { font-family: var(--font-display); font-size: 1.45rem; line-height: 1.35; font-style: italic; }
+.reflect .note { color: var(--muted); font-size: 0.95rem; }
+
+ul.tools { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0.7rem; }
+ul.tools li { display: grid; grid-template-columns: 1.2rem 1fr; gap: 0.7rem; }
+ul.tools li::before { content: "✦"; color: var(--gold); font-size: 0.85rem; padding-top: 0.25rem; }
+
+/* Sessions */
+.sessions { background: var(--sand); }
+.sessions-head { text-align: center; display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2.5rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: 1.25rem; }
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  padding: 1.8rem;
+  display: flex; flex-direction: column; gap: 0.9rem;
+  min-width: 0;
+}
+.card .chips { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.chip {
+  font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 0.2rem 0.65rem; border-radius: 999px;
+  border: 1px solid var(--gold); color: var(--gold-ink);
+  font-variant-numeric: tabular-nums;
+}
+.card h3 { color: var(--accent); }
+.card .tag { font-family: var(--font-display); font-style: italic; font-size: 1.2rem; color: var(--muted); margin-top: -0.4rem; }
+.card .fit { font-size: 0.97rem; border-top: 1px solid var(--line); padding-top: 0.9rem; }
+.card .fit strong { color: var(--fg); }
+.card .btn { align-self: flex-start; margin-top: auto; }
+.begin { max-width: var(--measure); margin: 2.5rem auto 0; text-align: center; display: flex; flex-direction: column; gap: 0.6rem; }
+.begin h3 { font-size: 1.5rem; }
+
+/* Package */
+.package {
+  background: linear-gradient(170deg, var(--hero-from), var(--hero-to));
+  color: var(--hero-fg);
+}
+.package h2 { color: #FBF3E4; }
+.package .eyebrow { color: var(--champagne); }
+.package-inner { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); gap: 3rem; align-items: start; }
+@media (max-width: 760px) { .package-inner { grid-template-columns: 1fr; gap: 2rem; } }
+.package .lede { color: #E9DDEF; }
+.price { font-family: var(--font-display); font-size: 3rem; color: var(--champagne); line-height: 1; font-variant-numeric: tabular-nums; }
+.price small { font-family: var(--font-body); font-size: 0.95rem; color: #E9DDEF; letter-spacing: 0.02em; }
+ol.path { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0; counter-reset: step; }
+ol.path li {
+  counter-increment: step;
+  display: grid; grid-template-columns: 3rem 1fr; gap: 1rem;
+  padding-block: 1.2rem;
+  border-top: 1px solid rgba(230,199,122,0.3);
+}
+ol.path li:last-child { border-bottom: 1px solid rgba(230,199,122,0.3); }
+ol.path li::before {
+  content: counter(step);
+  font-family: var(--font-display); font-size: 2.2rem; line-height: 1; color: var(--champagne);
+}
+ol.path .week { font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--champagne); }
+ol.path h3 { font-size: 1.45rem; color: #FBF3E4; }
+ol.path p { color: #E9DDEF; font-size: 0.98rem; }
+
+/* Table */
+.table-scroll { overflow-x: auto; margin-top: 0.5rem; }
+table { width: 100%; border-collapse: collapse; min-width: 30rem; }
+th, td { text-align: left; padding: 0.9rem 1rem; vertical-align: top; border-bottom: 1px solid var(--line); }
+th { font-size: 0.78rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold-ink); font-weight: 700; }
+td:first-child { color: var(--muted); }
+td:last-child { color: var(--fg); font-weight: 600; }
+
+/* Testimonials */
+.quotes { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr)); gap: 1.5rem; }
+blockquote { margin: 0; display: flex; flex-direction: column; gap: 0.6rem; padding-left: 1.2rem; border-left: 2px solid var(--gold); }
+blockquote p { font-family: var(--font-display); font-size: 1.55rem; font-style: italic; line-height: 1.35; }
+blockquote cite { font-style: normal; font-size: 0.85rem; letter-spacing: 0.08em; text-transform: uppercase; color: var(--muted); }
+
+/* Fit */
+.fit-cols { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 20rem), 1fr)); gap: 2rem; }
+.fit-cols h3 { font-size: 1.35rem; margin-bottom: 0.8rem; }
+.fit-cols ul { margin: 0; padding-left: 1.2rem; display: flex; flex-direction: column; gap: 0.55rem; }
+.fit-cols .no h3 { color: var(--muted); }
+
+/* About */
+.about { background: var(--surface); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.about .greeting { font-family: var(--font-display); font-size: 1.8rem; color: var(--accent); }
+.about .close { font-family: var(--font-display); font-style: italic; font-size: 1.4rem; }
+
+/* FAQ */
+details { border-bottom: 1px solid var(--line); }
+details:first-of-type { border-top: 1px solid var(--line); }
+summary {
+  cursor: pointer; list-style: none; padding-block: 1.1rem;
+  font-weight: 700; display: flex; justify-content: space-between; gap: 1rem;
+}
+summary::-webkit-details-marker { display: none; }
+summary::after { content: "+"; color: var(--gold-ink); font-size: 1.3rem; line-height: 1; }
+details[open] summary::after { content: "–"; }
+details p { padding-bottom: 1.2rem; color: var(--muted); }
+
+/* Close */
+.closing { text-align: center; }
+.closing .stack { align-items: center; }
+.closing h2 { font-size: clamp(2.2rem, 5vw, 3.2rem); }
+.pending { font-size: 0.85rem; color: var(--muted); border: 1px dashed var(--taupe); padding: 0.4rem 0.8rem; border-radius: 4px; }
+footer { padding-block: 2rem 3rem; text-align: center; color: var(--muted); font-size: 0.88rem; }
+footer .disclaimer { max-width: var(--measure); margin: 0 auto 0.8rem; font-style: italic; }
+</style>
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <svg class="sigil" viewBox="0 0 120 120" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+      <circle cx="60" cy="60" r="56" opacity="0.5"/>
+      <circle cx="60" cy="60" r="48" opacity="0.8"/>
+      <g opacity="0.7">
+        <circle cx="60" cy="8" r="1.6" fill="currentColor"/><circle cx="112" cy="60" r="1.6" fill="currentColor"/>
+        <circle cx="60" cy="112" r="1.6" fill="currentColor"/><circle cx="8" cy="60" r="1.6" fill="currentColor"/>
+      </g>
+      <g class="flame">
+        <path d="M60 22 C 72 40, 84 52, 78 70 C 74 82, 66 88, 60 88 C 54 88, 46 82, 42 70 C 36 52, 48 40, 60 22 Z" fill="rgba(230,199,122,0.12)"/>
+        <path d="M60 46 C 66 56, 70 62, 67 72 C 65 78, 62 80, 60 80 C 58 80, 55 78, 53 72 C 50 62, 54 56, 60 46 Z" fill="rgba(230,199,122,0.35)"/>
+      </g>
+      <path d="M38 96 Q 60 88 82 96" opacity="0.8"/>
+    </svg>
+    <p class="eyebrow">Private sessions with Enid Rosa · Divine Expression</p>
+    <h1>Your fire was never <em>too much</em></h1>
+    <p class="sub">Dragon Flame Activations, for the kind-hearted woman who has given so much of herself that she's forgotten her own strength.</p>
+    <p class="meta">One-hour private sessions on Zoom · $97</p>
+    <a class="btn gold" href="#sessions">Choose your activation</a>
+  </div>
+</header>
+
+<main>
+  <section class="wrap">
+    <div class="prose stack opening">
+      <p>You're the one people lean on.</p>
+      <p>You listen. You hold space. You make things easier for everyone around you. You say yes before you've checked in with yourself, and later you replay the conversation, wondering if you said too much, or not enough.</p>
+      <p>You have gifts. You have opinions. There's a knowing that rises up in you, and more often than not, you soften it so no one thinks you're <em>too much</em>.</p>
+      <p>And at the end of the day, you're tired in a way that sleep doesn't fix.</p>
+      <p class="turn">Here's what I want you to know: your kindness is not the problem. It was never meant to cost you your power.</p>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <svg viewBox="0 0 144 24" fill="none" stroke="currentColor" stroke-width="1"><path d="M0 12 H56"/><path d="M88 12 H144"/><path d="M72 3 L80 12 L72 21 L64 12 Z" fill="currentColor" fill-opacity="0.25"/></svg>
+  </div>
+
+  <section class="wrap">
+    <div class="prose stack">
+      <p class="eyebrow">What the dragons know</p>
+      <h2>Power that is fierce and loving at once</h2>
+      <p>Across cultures and centuries, dragons have been keepers. Keepers of treasure, of sacred places, of ancient fire.</p>
+      <p>When I work with dragon energy, this is what I see in it: a presence that is steady, protective, and completely itself. A dragon doesn't ask permission to take up space. It doesn't apologize for its fire. And it doesn't burn everything down, either. Its power is <em>held</em>.</p>
+      <p>That balance is what these sessions are about. Not becoming harder or colder. Not swinging from people-pleasing into resentment. Remembering that you can be loving and powerful in the same breath.</p>
+      <div class="reflect">
+        <p class="eyebrow">Pause here for a moment</p>
+        <p class="q">Where in your life are you saying yes while your body is quietly saying no?</p>
+        <p class="note">You don't have to do anything with the answer yet. Just notice it.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <div class="prose stack">
+      <p class="eyebrow">The activation</p>
+      <h2>What a Dragon Flame Activation is</h2>
+      <p>Each activation is a private, one-hour session between you and me, held online over Zoom, so you can join from wherever you feel most at ease.</p>
+      <p>Depending on the session you choose and what comes through on the day, we'll work with:</p>
+      <ul class="tools">
+        <li><span><strong>Guided journeying</strong> to meet and connect with dragon energy</span></li>
+        <li><span><strong>Dragon Flame healing</strong> to release old patterns held in your energy</span></li>
+        <li><span><strong>Dragon Light Symbols and Codes</strong> for activation and alignment</span></li>
+        <li><span><strong>Energetic, spiritual, and astral protection</strong></span></li>
+        <li><span><strong>Intuitive guidance</strong>, and tarot when it helps bring a message into focus</span></li>
+      </ul>
+      <p>We always leave time at the end to talk about what you experienced. You'll go home with a simple practice so the work keeps living in your days, not just in our hour together.</p>
+    </div>
+  </section>
+
+  <section class="sessions" id="sessions">
+    <div class="wrap">
+      <div class="sessions-head">
+        <p class="eyebrow">Four doorways</p>
+        <h2>Choose your activation</h2>
+        <p>Every session is one hour and $97.</p>
+      </div>
+      <div class="grid">
+        <article class="card">
+          <div class="chips"><span class="chip">60 min</span><span class="chip">$97</span></div>
+          <h3>Meet Your Dragon Guide</h3>
+          <p class="tag">A gentle first door into dragon work.</p>
+          <p>Through a guided journey, you'll meet the dragon guide who walks with you, receive its message, and learn how to call on it when you need strength or clarity. If it serves you, we'll pull a tarot card together to help you understand what your guide is showing you.</p>
+          <p class="fit"><strong>This is for you if</strong> you've felt a pull toward dragon energy and want to know who's there, or if you're new to this work and want a grounded place to begin.</p>
+          <a class="btn" href="#book">Book this session</a>
+        </article>
+        <article class="card">
+          <div class="chips"><span class="chip">60 min</span><span class="chip">$97</span></div>
+          <h3>Dragon Flame Healing</h3>
+          <p class="tag">Releasing the pattern that keeps dimming your fire.</p>
+          <p>We'll bring one pattern into focus, perhaps people-pleasing, overthinking, or self-doubt, and work with the Dragon Flames to help you release it from your energy. Then we'll make room for what wants to grow in its place.</p>
+          <p class="fit"><strong>This is for you if</strong> you already know the pattern you're tired of living in, and you're ready to set it down.</p>
+          <a class="btn" href="#book">Book this session</a>
+        </article>
+        <article class="card">
+          <div class="chips"><span class="chip">60 min</span><span class="chip">$97</span></div>
+          <h3>Dragon Shield</h3>
+          <p class="tag">Energetic &amp; astral protection, for the woman who feels everything.</p>
+          <p>If you leave conversations carrying someone else's mood, or feel drained after time around people, this session is for you. We'll cleanse your field, seal and protect your energy, and anchor a short daily protection practice you can use on your own, anytime.</p>
+          <p class="fit"><strong>This is for you if</strong> you're sensitive, empathic, or simply tired of absorbing what isn't yours.</p>
+          <a class="btn" href="#book">Book this session</a>
+        </article>
+        <article class="card">
+          <div class="chips"><span class="chip">60 min</span><span class="chip">$97</span></div>
+          <h3>Light Body Activation</h3>
+          <p class="tag">With Dragon Light Codes, for when you're ready to expand.</p>
+          <p>Working with Dragon Light Symbols and Codes, we'll activate and strengthen your light body so you can hold more of your own power, presence, and inner knowing.</p>
+          <p class="fit"><strong>This is for you if</strong> you've already done some healing work, whether with me or elsewhere, and you feel ready for the next layer.</p>
+          <a class="btn" href="#book">Book this session</a>
+        </article>
+      </div>
+      <div class="begin">
+        <h3>Not sure where to begin?</h3>
+        <p>Let your body choose. Read through the four sessions again and notice which one you keep coming back to. That's usually your answer.</p>
+        <p>If you're still unsure, start with <strong>Meet Your Dragon Guide</strong>. Everything else builds beautifully from there.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="package">
+    <div class="wrap package-inner">
+      <div class="stack">
+        <p class="eyebrow">Three activations over six weeks</p>
+        <h2>Dragon Flame Sovereignty Journey</h2>
+        <p class="lede">For the woman who wants to walk this path with support and give each step time to settle in. Spacing the sessions two weeks apart gives you room to live with each layer before we move to the next.</p>
+        <p class="price">$265 <small>for all three sessions</small></p>
+        <a class="btn gold" href="#book" style="align-self:flex-start">Begin the Journey</a>
+      </div>
+      <ol class="path">
+        <li><div class="stack" style="gap:0.3rem"><span class="week">Week 1</span><h3>Connect and clear</h3><p>Meet your dragon guide and release an old pattern.</p></div></li>
+        <li><div class="stack" style="gap:0.3rem"><span class="week">Week 3</span><h3>Protect</h3><p>Build your energetic shield and strengthen your boundaries.</p></div></li>
+        <li><div class="stack" style="gap:0.3rem"><span class="week">Week 5</span><h3>Claim</h3><p>Activate your light body and anchor your power.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="prose stack">
+      <p class="eyebrow">The path</p>
+      <h2>What women come to this work wanting</h2>
+      <p>Every woman's experience is her own, and I won't promise you a particular result. Energy work doesn't run on a schedule. But here's the shift this work is designed to support:</p>
+      <div class="table-scroll">
+        <table>
+          <thead><tr><th>Where you might be now</th><th>What we're working toward</th></tr></thead>
+          <tbody>
+            <tr><td>Saying yes out of guilt or habit</td><td>Saying yes and no from a calm, clear place</td></tr>
+            <tr><td>Second-guessing what you know</td><td>Trusting your inner knowing</td></tr>
+            <tr><td>Absorbing other people's energy</td><td>Feeling protected and sealed in your own field</td></tr>
+            <tr><td>Dimming your power, then feeling resentful</td><td>Holding your power in balance, and speaking your truth with love</td></tr>
+            <tr><td>Waiting for life to happen to you</td><td>Creating from your own center</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p>This is a path you walk, with your dragon guide beside you. Each session is one step on it.</p>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <div class="prose stack">
+      <p class="eyebrow">Kind words</p>
+      <h2>What clients have said about working with me</h2>
+      <div class="quotes">
+        <blockquote><p>"Very intuitive and gentle while still holding a grounding, centered space."</p><cite>Private session client</cite></blockquote>
+        <blockquote><p>"Gentle, loving energy."</p><cite>Private session client</cite></blockquote>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap" style="padding-top:0">
+    <div class="prose stack">
+      <p class="eyebrow">Before you book</p>
+      <h2>Is this right for you?</h2>
+      <div class="fit-cols">
+        <div>
+          <h3>These sessions are for you if</h3>
+          <ul>
+            <li>You give generously and you're ready to stop giving yourself away</li>
+            <li>You feel a pull toward dragon energy, even if you can't explain it yet</li>
+            <li>You want to honor your shadow as well as your light</li>
+            <li>You're willing to take part: to reflect, practice, and bring what you receive into your life</li>
+            <li>You want to feel more like yourself, not more dependent on someone else</li>
+          </ul>
+        </div>
+        <div class="no">
+          <h3>They may not be the right fit if</h3>
+          <ul>
+            <li>You're looking for someone to make your decisions for you</li>
+            <li>You want guaranteed predictions or an instant fix</li>
+            <li>You're hoping energy work will replace medical, psychological, legal, or financial care</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about">
+    <div class="wrap">
+      <div class="prose stack">
+        <p class="eyebrow">A little about me</p>
+        <p class="greeting">Hi love, I'm Enid Rosa, founder of Divine Expression.</p>
+        <p>I'm a Spiritual Coach, Reiki Master, Tarot Reader, Shamanic Astrologer, and Priestess, and I've spent more than 15 years in personal development and energy work.</p>
+        <p>My dragons found me in 2014, when I met my guardian dragon during an underworld initiation journey. They came as guardians of protection, and of the deep alchemy of transformation that makes rebirth possible. I've walked with them ever since.</p>
+        <p>In 2021, I received Dragon Empowerment Master Teacher certificates in Celtic Dragon Reiki, Dragon Empowerment, and Dragon Sekhem. Since 2023, I've been collaborating with fellow dragon keepers on a monthly online ceremony, and we still gather every month. In 2026, I received my Dragon Flame Keepers Light Codes Healers Certificate.</p>
+        <p>These activations bring all of that dragon medicine together with everything I know about holding gentle, grounded space for women.</p>
+        <p class="close">My work isn't about telling you who you are. It's about helping you remember.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="wrap">
+    <div class="prose stack">
+      <p class="eyebrow">Questions</p>
+      <h2>Questions you might have</h2>
+      <div>
+        <details><summary>Do I need any experience with dragons or energy work?</summary><p>No. If you feel drawn to this, that's enough. Meet Your Dragon Guide is a gentle place to start.</p></details>
+        <details><summary>What if I don't see or feel anything during the session?</summary><p>That's more common than you might think, and it doesn't mean nothing is happening. Some women see images, some feel sensations, some simply feel calmer afterward. Your experience is valid however it shows up, and we'll talk it through together.</p></details>
+        <details><summary>Where do the sessions happen?</summary><p>Online, over Zoom. All you need is a quiet, private space where you won't be interrupted, a stable internet connection, and headphones if you have them. Some women like to have a journal and a glass of water nearby.</p></details>
+        <details><summary>What should I do after my session?</summary><p>Drink water, rest if you can, and be gentle with yourself. You'll leave with a simple practice to keep working with.</p></details>
+        <details><summary>Can I book more than one session?</summary><p>Yes. Many of these sessions build on each other. If you'd like to go deeper over time, the Dragon Flame Sovereignty Journey brings three of them together.</p></details>
+        <details><summary>What if I need to reschedule?</summary><p>Life happens. If you let me know at least 12 hours before your session, we'll find a new time that works for you. Cancellations with less than 12 hours' notice, and missed sessions, aren't refunded.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <section class="closing" id="book">
+    <div class="wrap">
+      <div class="prose stack">
+        <p class="eyebrow">When you're ready</p>
+        <h2>Your fire is already there</h2>
+        <p>You don't have to become someone new. Your fire is already there, waiting for you to remember it.</p>
+        <p>When you feel the pull, I'll be here.</p>
+        <a class="btn" href="#book">Book Your Dragon Flame Activation</a>
+        <p class="meta" style="color:var(--gold-ink)">One-hour private sessions on Zoom · $97 · Sovereignty Journey $265</p>
+        <p class="pending">Preview note: booking links will be added once you choose your website or Stripe.</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="wrap">
+  <p class="disclaimer">Dragon Flame Activations are spiritual and energetic sessions. They're not a substitute for medical or mental health care, and they don't diagnose or treat any condition.</p>
+  <p>Divine Expression · Enid Rosa</p>
+</footer>
+</body>
+</html>
